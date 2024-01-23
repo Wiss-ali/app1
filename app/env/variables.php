@@ -1,0 +1,5 @@
+<?php
+
+$cssPath = '/assets/';
+
+$rootUrl = '/';
