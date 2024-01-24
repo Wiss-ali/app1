@@ -5,6 +5,7 @@ require_once '/app/env/variables.php';
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@ require_once '/app/env/variables.php';
     <link rel="stylesheet" href=" <?= $cssPath; ?>structure.css">
     <link rel="stylesheet" href="assets/index.css">
 </head>
+
 <body>
     //recuper le header sur tout les page. (ne pas oublier la commande en haut de page)
     <?php require_once '/app/layout/header.php'; ?>
@@ -27,10 +29,10 @@ require_once '/app/env/variables.php';
             <input type="file" name="image" id="image">
             <button type="submit" class="btn btn-primary">envoyer</button>
 
-    </form>
+        </form>
 
-    <?php var_dump($_POST) ?>
+        <?php var_dump($_POST) ?>
     </main>
-</body> 
-</html>
+</body>
 
+</html>
